@@ -1,3 +1,4 @@
+#enter file name mbox-short.txt
 fname = input("Enter file name: ")
 if len(fname) < 1 : fname = "mbox-short.txt"
 fhand = open(fname)
